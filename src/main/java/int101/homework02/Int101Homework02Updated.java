@@ -6,8 +6,8 @@ import work03.Account;
 
 public class Int101Homework02Updated {
     public static void main(String[] args) {
-//        work01Utilitor();
-//        work02Person();
+        work01Utilitor();
+        work02Person();
         work03Account();
     }
 
