@@ -21,18 +21,18 @@ public class Utilitor {
        1.5 Show in this "work01Utilitor" method how to
            use 1.2-1.4 and check their correctness. */
 
-    public String testString(String value) {
+    public static String testString(String value) {
         if (value == null) throw new NullPointerException();
         if (value.isBlank()) throw new IllegalArgumentException();
         return value;
     }
 
-    public double testPositive(double value) {
+    public static double testPositive(double value) {
         if (value < 0) throw new IllegalArgumentException();
         return value;
     }
 
-    public long computeIsbn10(long isbn10) {
+    public static long computeIsbn10(long isbn10) {
         int sum = 0;
         for (int i = 2; i < 11; i++) {
             int digit = (int) (isbn10 % 10);
